@@ -8,17 +8,20 @@
 } */
 html {
   box-sizing: border-box;
-  background-image: url(media/bg-mtl.png);
+  /* background-image: url(media/bg-mtl.png);
   background-position: center;
-  background-size: cover;
+  background-size: cover; */
   height: 100%;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  /* align-items: center;
+  justify-content: center; */
 }
 body {
   width: 100%;
   margin: 10 10 0 10;
+  background-image: url(media/bg-mtl.png);
+  background-position: center;
+  background-size: cover;
 }
   
 .App {

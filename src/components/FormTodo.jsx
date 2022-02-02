@@ -4,7 +4,7 @@ import { faPaperPlane } from '@fortawesome/free-solid-svg-icons';
 
 const sendIncon = <FontAwesomeIcon icon={faPaperPlane} /> /* IconFormFA */
 const FormTodo = props => {
-    const [description, setDescription] = useState("");
+    const [description, setDescription] = useState(""); //Se inicializa(Valor inicial)
     const{handleAddItem} = props;  //Atributo
     
     const handleSubmit = e =>{
@@ -24,7 +24,7 @@ const FormTodo = props => {
                     <input 
                     type="text"
                     className="text"
-                    value={description}
+                    value={description}  //Capturando la descripción, se almacena en la var Description
                     onChange={e => setDescription(e.target.value)}/> {/* Escucha cuando el estado cambia */}
                     <button
                     className="button golden" 

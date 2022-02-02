@@ -6,7 +6,7 @@ import Container from "./components/container";
 function App() {
   return (
     <div>
-      <h1 className="title">WELCOME CHAMP! <br/> WHAT ARE U DOING TODAY?</h1>
+      <h1 className="title">WELCOME CHAMP! <br/> <br/> <br/> </h1>
       <div className="App">
         <Container />
       </div>
